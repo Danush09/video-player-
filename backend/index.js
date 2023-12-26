@@ -46,6 +46,6 @@ app.get('/videos/:filename', (req, res)=>{
     }
 })
 
-app.listen(5000, ()=>{
-    console.log('server is listening on post 5000')
+app.listen(8000, ()=>{
+    console.log('server is listening on post 8000')
 })
