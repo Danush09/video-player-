@@ -81,7 +81,7 @@ const VideoPlayer = ({ videoId }) => {
   return (
     <video ref={videoRef} width="700" height="315" controls autoPlay>
       <source
-        src={`http://localhost:3000/videos/${videoId}`}
+        src={`https://video-player-server-cqs0.onrender.com/${videoId}`}
         type="video/mp4"
       ></source>
       Your browser does not support the video tag.
